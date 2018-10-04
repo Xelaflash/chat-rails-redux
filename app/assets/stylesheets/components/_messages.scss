@@ -11,15 +11,16 @@ body {
 
 .logo-container {
   padding: 10px;
-  width: 60px;
+  width: 100px;
   height: 100%;
-  background: #dbdbdb;
+  background: black;
   box-sizing: border-box;
 }
 
 .messaging-logo {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
 }
 
 /* Column 2/3 *****************************************************************/
@@ -30,8 +31,6 @@ body {
   height: 100%;
   background: #f4f4f4;
   box-sizing: border-box;
-  border-right: 1px solid black;
-  margin-top: 2px;
 }
 
 .channels-container > span {
@@ -52,8 +51,6 @@ body {
   font-size: 14px;
   color: #7c7c7c;
   cursor: pointer;
-  margin-top: 2px;
-
 }
 
 .channels-container > ul > li.active {
@@ -87,13 +84,7 @@ body {
   padding: 20px 20px 0 28px;
   box-sizing: border-box;
   height: 100%;
-  margin-left: 20px;
-  overflow: auto;
-  overflow-x: hidden;
-}
-
-.message-container {
-  margin: 10px;
+  // overflow: scroll;
 }
 
 .message-container > i {

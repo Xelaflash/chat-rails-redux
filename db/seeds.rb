@@ -8,15 +8,18 @@ puts "End destroy"
 
 puts "start seeds"
 
-channel_name = %w(Hardware Software Ruby/Rails Javascript React Swift Misc.)
+channel_name = %w(Hardware Software Ruby Javascript React Swift Misc)
 
 channels = channel_name.map do |name|
   Channel.find_or_create_by(name: name)
 end
 
+nickname = ["Toto l'asticot", "ClaudyDikkenek", "prince du bled93", "MondeDeMerde", "blagounette33", "LesZnuls"]
+
 users_mails = %w(toto@toto.com jean.blaguin@me.com claudyfaucan@gmail.com aladdin@jafar.com patrick-abitbol@mondedemerde.com lamouchequipete@lesnuls.fr )
+
 users = users_mails.map do |mail|
-  User.create(email: "#{mail}", password: "123456")
+  User.create(email: "#{mail}", nickname: nickname.sample, password: "123456")
 end
 
 10.times do
