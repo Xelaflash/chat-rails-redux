@@ -5,12 +5,22 @@
     "@rails/webpacker": "3.5",
     "babel-preset-react": "^6.24.1",
     "bootstrap": "3",
+    "history": "^4.7.2",
     "jquery": "^3.3.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2"
   },
   "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
     "webpack-dev-server": "2.11.2"
   }
 }
