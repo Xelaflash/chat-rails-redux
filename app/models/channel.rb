@@ -1,3 +1,5 @@
 class Channel < ApplicationRecord
-  validates :name, presence: true, uniqueness: true
+  has_many :messages
+
+  validates :name, uniqueness: true
 end

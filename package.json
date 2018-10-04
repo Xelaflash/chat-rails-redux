@@ -10,10 +10,13 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-emojione": "^5.0.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.0",
-    "redux-form": "^7.4.2"
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "^5.6.1",
@@ -24,8 +27,8 @@
     "webpack-dev-server": "2.11.2"
   },
   "scripts": {
-  "start": "webpack-dev-server --mode development",
-  "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
-  "deploy": "webpack -p && gh-pages -d dist"
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
+    "deploy": "webpack -p && gh-pages -d dist"
   }
 }
