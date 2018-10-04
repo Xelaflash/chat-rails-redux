@@ -22,5 +22,10 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "webpack-dev-server": "2.11.2"
+  },
+  "scripts": {
+  "start": "webpack-dev-server --mode development",
+  "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
+  "deploy": "webpack -p && gh-pages -d dist"
   }
 }
