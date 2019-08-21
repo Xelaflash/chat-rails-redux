@@ -83,7 +83,7 @@ GEM
     equatable (0.5.0)
     erubi (1.8.0)
     execjs (2.7.0)
-    ffi (1.10.0)
+    ffi (1.11.1)
     font-awesome-sass (5.0.13)
       sassc (>= 1.11)
     globalid (0.4.2)
@@ -93,9 +93,10 @@ GEM
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
-    listen (3.0.8)
+    listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
     loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -164,6 +165,7 @@ GEM
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
       railties (>= 4.2.0, < 6.0)
+    ruby_dep (1.5.0)
     sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -242,7 +244,7 @@ DEPENDENCIES
   faker!
   font-awesome-sass (~> 5.0.9)
   jbuilder (~> 2.0)
-  listen (~> 3.0.5)
+  listen (~> 3.1.5)
   pg (~> 0.21)
   pry-byebug
   pry-rails
