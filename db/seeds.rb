@@ -23,21 +23,21 @@ users = users_mails.map do |mail|
 end
 
 10.times do
-  Message.create! user: users.sample, channel: channels.sample, content: Faker::HowIMetYourMother.quote
+  Message.create! user: users.sample, channel: channels.sample, content: Faker::TvShows::HowIMetYourMother.quote
 end
 
 10.times do
   Message.create! user: users.sample, channel: channels.sample, content:
-  Faker::DumbAndDumber.quote
+  Faker::TvShows::DumbAndDumber.quote
 end
 
 10.times do
   Message.create! user: users.sample, channel: channels.sample, content:
-  Faker::SouthPark.quote
+  Faker::TvShows::SouthPark.quote
 end
 10.times do
   Message.create! user: users.sample, channel: channels.sample, content:
-  Faker::RickAndMorty.quote
+  Faker::TvShows::RickAndMorty.quote
 end
 
 puts "end seed"
